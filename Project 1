@@ -1,0 +1,22 @@
+
+   /* शुभ लाभ */
+
+# include<simplecpp>
+
+
+main_project
+{
+int nsides;
+cout<< " Enter number of sides";
+cin>> nsides;
+
+turtleSim();
+
+repeat(nsides)
+{forward(50);
+ left(360.0/nsides);
+  }
+ wait (10)
+
+}
+
