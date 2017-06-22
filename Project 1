@@ -4,7 +4,7 @@
 # include<simplecpp>
 
 
-main_project
+main_program
 {
 int nsides;
 cout<< " Enter number of sides";
@@ -16,7 +16,7 @@ repeat(nsides)
 {forward(50);
  left(360.0/nsides);
   }
- wait (10)
+ wait (10);
 
 }
 
